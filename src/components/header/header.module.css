@@ -1,0 +1,19 @@
+.main {
+    display: flex;
+    height: 400px;
+    max-width: 1440px;
+    background-color: #28293E;
+    margin: 0 auto;
+    color:white;
+    flex-direction: column;
+    padding: 0 135px;
+    box-sizing: border-box;
+}
+.box_top {
+    display: flex;
+    justify-content: space-between;
+}
+.menu_lists {
+    display: flex;
+    gap:100px;
+}
