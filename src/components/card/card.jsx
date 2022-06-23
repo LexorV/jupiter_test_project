@@ -17,7 +17,6 @@ export const Card = ({ name,
         let width = window.innerWidth;
         if(width>1040) {
             e.stopPropagation();
-            console.log(width)
             setIsActive(!isActive)
         }
     }
