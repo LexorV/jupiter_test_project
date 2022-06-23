@@ -4,6 +4,7 @@ import React, {
 } from 'react';
 import { testData } from '../helper/data';
 import mainStyle from './main.module.css';
+import {Card} from '../components/card/card';
 export const Main = () => {
     const [cardsList, setCardList] = useState(testData);
     const [activeList, setActiveList] = useState('ShowAll');
@@ -43,8 +44,18 @@ export const Main = () => {
                         ${mainStyle.list}`}>Illustration</li>
                 <li onClick={handleMotion}
                     className={`${activeList === 'Motion' ?
-                        mainStyle.list_active : ''} 
+                        mainStyle.list_active : ''}
                     ${mainStyle.list}`}>Motion</li>
+            </ul>
+            <ul>
+                { cardsList.map((card) => (
+                    <Card name={card.name} 
+                    category={card.category}
+                    url={card.url}
+                    />
+
+                )) }
+
             </ul>
         </main>
     );
