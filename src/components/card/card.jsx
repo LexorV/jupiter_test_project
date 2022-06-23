@@ -14,8 +14,12 @@ export const Card = ({ name,
     const [isActive, setIsActive] = useState(false);
 
     const activeCard = (e) => {
-        e.stopPropagation();
-        setIsActive(!isActive)
+        let width = window.innerWidth;
+        if(width>1040) {
+            e.stopPropagation();
+            console.log(width)
+            setIsActive(!isActive)
+        }
     }
     const deleteCard = () => {
         const newArr = [...localTestData];

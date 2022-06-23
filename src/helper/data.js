@@ -58,61 +58,61 @@ export const testData = [
     id:nanoid(8),
     name:`test ${nanoid(2)}`,
     category:'Motion',
-    url:'https://www.shutterstock.com/ru/image-vector/big-data-analytics-computing-center-monitor-2044867709'
+    url:'https://www.pnp.ru/upload/entities/2021/04/19/18/article/detailPicture/7e/66/9f/55/23c871532e2289d5791561c8adda1a1a.jpg'
 },
 {
     id:nanoid(8),
     name:`test ${nanoid(2)}`,
     category:'Branding',
-    url:'https://www.shutterstock.com/ru/image-photo/doctor-scientist-analysis-diagnose-checking-blood-1687180639'
+    url:'http://eurasian-defence.ru/sites/default/files/Kupriyanov/2015/201508/20150803/20150803ExclAnalit1/20150803exclanalit1zast.jpg'
 },
 {
     id:nanoid(8),
     name:`test ${nanoid(2)}`,
     category:'Design',
-    url:'https://www.shutterstock.com/ru/image-illustration/application-security-testing-concept-digital-magnifying-2128034039'
+    url:'http://www.gctc.ru/media/images/education/general/cosmos_1.jpg'
 },
 {
     id:nanoid(8),
     name:`test ${nanoid(2)}`,
     category:'Motion',
-    url:'https://www.shutterstock.com/ru/image-photo/big-data-database-app-bits-access-547118830'
+    url:'https://st.depositphotos.com/1000423/4111/i/450/depositphotos_41119843-stock-photo-innovation-concept.jpg'
 },
 {
     id:nanoid(8),
     name:`test ${nanoid(2)}`,
     category:'illustration',
-    url:'https://www.shutterstock.com/ru/image-illustration/abstract-style-illustration-depicting-printed-circuit-161498747'
+    url:'https://st.depositphotos.com/1000423/4111/i/450/depositphotos_41119843-stock-photo-innovation-concept.jpg'
 },
 {
     id:nanoid(8),
     name:`test ${nanoid(2)}`,
     category:'Design',
-    url:'https://www.shutterstock.com/ru/image-vector/website-loading-optimization-page-speed-seo-2044562390'
+    url:'https://st.depositphotos.com/1000423/4111/i/450/depositphotos_41119843-stock-photo-innovation-concept.jpg'
 },
 {
     id:nanoid(8),
     name:`test ${nanoid(2)}`,
     category:'Motion',
-    url:'https://www.shutterstock.com/ru/image-photo/two-colleague-web-designer-discussing-data-507042697'
+    url:'https://st.depositphotos.com/1000423/4111/i/450/depositphotos_41119843-stock-photo-innovation-concept.jpg'
 },
 {
     id:nanoid(8),
     name:`test ${nanoid(2)}`,
     category:'Illustration',
-    url:'https://www.shutterstock.com/ru/image-photo/agriculturist-utilize-core-data-network-internet-1884814591'
+    url:'https://st.depositphotos.com/1000423/4111/i/450/depositphotos_41119843-stock-photo-innovation-concept.jpg'
 },
 {
     id:nanoid(8),
     name:`test ${nanoid(2)}`,
     category:'Motion',
-    url:'https://www.shutterstock.com/ru/image-vector/technical-support-system-software-development-landing-2078179042'
+    url:'https://st.depositphotos.com/1000423/4111/i/450/depositphotos_41119843-stock-photo-innovation-concept.jpg'
 },
 {
     id:nanoid(8),
     name:`test ${nanoid(2)}`,
     category:'Branding',
-    url:'https://www.shutterstock.com/ru/image-photo/young-guy-student-prepare-research-essay-1906252684'
+    url:'https://st.depositphotos.com/1000423/4111/i/450/depositphotos_41119843-stock-photo-innovation-concept.jpg'
 },
 
 ]
