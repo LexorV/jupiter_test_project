@@ -1,0 +1,7 @@
+.default {
+    width:140px;
+    height: 48px;
+    background-color:transparent;
+    border-radius:5px;
+    cursor:pointer;
+}
