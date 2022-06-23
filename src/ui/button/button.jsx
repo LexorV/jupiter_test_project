@@ -7,7 +7,7 @@ export const Button = ({
      ...rest}) => {
     return (
         <>
-        <button className = {`${buttonStyle.default} ${extraClass}`}
+        <button className = {`${extraClass} ${buttonStyle.default}`}
         {...rest}>
             {text}
         </button>
