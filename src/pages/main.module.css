@@ -1,0 +1,23 @@
+.main {
+    max-width: 1440px;
+    background-color: #FDF0E9;
+    margin: 0 auto;
+    padding-top:80px;
+    padding-bottom: 180px;
+}
+.list {
+    cursor: pointer;
+    color:#707070
+}
+.list:hover {
+    opacity:0.8;
+}
+
+.list_active {
+color:#16CD53;
+}
+.lists {
+    display:flex;
+    list-style-type: none;
+    gap: 60px;
+}
