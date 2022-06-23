@@ -6,7 +6,8 @@ import headerStyle from './header.module.css';
 import Button from '../../ui/button/button'
 export const Header = () => {
     return (
-        <header className={headerStyle.main}>
+        <header className={headerStyle.cover}>
+        <div className={headerStyle.main}>
             <div className={headerStyle.box_top}>
                 <Link to='/'><img src={logo} /></Link>
                 <nav className={headerStyle.menu_nav}>
@@ -29,6 +30,7 @@ export const Header = () => {
             </div>
             <h1 className={headerStyle.heading}>Portfolio</h1>
             <p className={headerStyle.text}>Agency provides a full service range including technical skills, design, business understanding.</p>
+        </div>
         </header>
     )
 }

@@ -1,6 +1,10 @@
 .main {
     height:416px;
     position: relative;
+    cursor: pointer;
+}
+.active {
+    border: 7px solid #4FE24A;
 }
 .picture {
     width: 100%;
@@ -10,9 +14,28 @@
     z-index: 0;
 }
 .name {
-    position: relative;
+    position: absolute;
     z-index: 3;
     color: white;
     font-size: 40px;
-    font-weight:700;
+    font-weight:600;
+    left:45px;
+    bottom:60px;
+    margin: 0;
+}
+.category {
+    width:84px;
+    height:38px;
+    background-color:white;
+    border-radius:20px;
+    font-size:16px;
+    font-weight:400;
+    position: absolute;
+    left:45px;
+    bottom:120px;
+    text-align: center;
+    line-height:35px
+}
+.category:hover {
+    opacity: 0.9;
 }

@@ -1,12 +1,17 @@
+.cover {
+    width: 100%;
+    background-color: #FDF0E9;
+
+}
 .main {
     max-width: 1440px;
     background-color: #FDF0E9;
     margin: 0 auto;
-    padding-top:80px;
-    padding-bottom: 180px;
+    padding:80px 130px 180px 130px;
     display: flex;
     flex-direction:column;
     align-items:center;
+    box-sizing: border-box;
 }
 .list {
     cursor: pointer;
@@ -19,8 +24,20 @@
 .list_active {
 color:#16CD53;
 }
-.lists {
+.lists_tab {
     display:flex;
     list-style-type: none;
     gap: 60px;
 }
+.lists_cards {
+    list-style-type: none;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+@media screen and (max-width:1440px)   {
+    .lists_cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
