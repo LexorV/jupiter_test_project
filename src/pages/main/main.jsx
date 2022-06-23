@@ -1,11 +1,10 @@
 import React, {
-    useEffect,
     useState
 } from 'react';
-import { testData } from '../helper/data';
+import { testData } from '../../helper/data';
 import mainStyle from './main.module.css';
-import { Card } from '../components/card/card';
-import { Button } from '../ui/button/button';
+import { Card } from '../../components/card/card';
+import { Button } from '../../ui/button/button';
 export const Main = () => {
     const [primaryArrCards, setPrimaryArrCards] = useState(testData)
     const [cardsList, setCardList] = useState(testData);
@@ -13,7 +12,7 @@ export const Main = () => {
     const [amtCard, setAmtCard] = useState(6);
     const [selectorState, setSelectorState] = useState({ value: 'ShowAll' })
     const filterCards = (category) => {
-        const filt = primaryArrCards.filter(card => card.category == category);
+        const filt = primaryArrCards.filter(card => card.category === category);
         setCardList(filt)
     }
     const handleSelector = (e) => {
