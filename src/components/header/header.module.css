@@ -26,6 +26,7 @@
     display: flex;
     gap:100px;
     list-style-type: none;
+    margin-right: 15px;
 }
 .button {
    border: 1px solid #676877;
@@ -42,4 +43,21 @@
     max-width: 570px;
     text-align: center;
     margin: 0;
+}
+@media screen and (max-width:1040px) {
+    .menu_lists {
+        display: none
+    }
+    .button {
+        display:none;
+    }
+    .box_top {
+        justify-content: center;
+    }
+    .heading  {
+        font-size:56px;
+    }
+    .main {
+        padding: 0 25px;
+    }
 }
