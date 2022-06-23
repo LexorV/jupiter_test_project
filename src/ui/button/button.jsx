@@ -1,14 +1,17 @@
 import React from "react";
 import buttonStyle  from './button.module.css';
 export const Button = ({
-    text,
+    text = '',
     extraClass = '',
     type = 'button',
      ...rest}) => {
     return (
+        <>
         <button className = {`${buttonStyle.default} ${extraClass}`}
         {...rest}>
             {text}
         </button>
+        </>
     )
 }
+export default Button

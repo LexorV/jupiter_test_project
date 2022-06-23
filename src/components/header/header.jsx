@@ -1,33 +1,34 @@
 import React, {
-
-  } from 'react';
-  import logo from '../../assets/images/header/logo.svg'
-  import headerStyle from './header.module.css'
+} from 'react';
+import { Link } from 'react-router-dom';
+import logo from '../../assets/images/header/logo.svg';
+import headerStyle from './header.module.css';
+import Button from '../../ui/button/button'
 export const Header = () => {
     return (
         <header className={headerStyle.main}>
             <div className={headerStyle.box_top}>
-                <img src={logo} />
+                <Link to='/'><img src={logo} /></Link>
                 <nav className={headerStyle.menu_nav}>
                     <ul className={headerStyle.menu_lists} >
-                        <li className= {headerStyle.menu_list}>
-                        About
+                        <li className={headerStyle.menu_list}>
+                            About
                         </li>
-                        <li className= {headerStyle.menu_list}>
-                        Services
+                        <li className={headerStyle.menu_list}>
+                            Services
                         </li>
-                        <li className= {headerStyle.menu_list}>
-                        Pricing
+                        <li className={headerStyle.menu_list}>
+                            Pricing
                         </li>
-                        <li className= {headerStyle.menu_list}>
-                        Blog
+                        <li className={headerStyle.menu_list}>
+                            Blog
                         </li>
                     </ul>
                 </nav>
-
-
+                <Button extraClass={headerStyle.button} text={"contact".toUpperCase()} />
             </div>
-            <p>test</p>
+            <h1 className={headerStyle.heading}>Portfolio</h1>
+            <p className={headerStyle.text}>Agency provides a full service range including technical skills, design, business understanding.</p>
         </header>
     )
 }

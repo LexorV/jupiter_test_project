@@ -8,12 +8,32 @@
     flex-direction: column;
     padding: 0 135px;
     box-sizing: border-box;
+    align-items: center;
 }
 .box_top {
     display: flex;
     justify-content: space-between;
+    margin-top: 15px;
+    width: 100%;
 }
 .menu_lists {
     display: flex;
     gap:100px;
+    list-style-type: none;
+}
+.button {
+   border: 1px solid #676877;
+   color: white;
+}
+.heading {
+    margin-block-start:0;
+    font-weight:600;
+    font-size:72px;
+    margin-top: 80px;
+    margin-bottom:30px;
+}
+.text {
+    max-width: 570px;
+    text-align: center;
+    margin: 0;
 }

@@ -1,21 +1,21 @@
 @font-face {
     font-family: "epilogue";
-    src: local("./epilogue/epilogue.black.ttf") format("truetype");
-    font-weight:900;
+    src: local("./epilogue/epilogue.extrabold.ttf") format("truetype");
+    font-weight:800;
   }
   @font-face {
     font-family: "epilogue";
-    src: local("./epilogue/epilogue.black.ttf") format("truetype");
+    src: local("./epilogue/epilogue.bold.ttf") format("truetype");
     font-weight: 700;
   }
   @font-face {
     font-family: "epilogue";
     src: local("./epilogue/epilogue.black.ttf") format("truetype");
-    font-weight: 800;
+    font-weight: 900;
   }
   @font-face {
     font-family: "epilogue";
-    src: local("./epilogue/epilogue.black.ttf") format("truetype");
+    src: local("./epilogue/epilogue.regular.ttf") format("truetype");
     font-weight: normal;
   }
 
